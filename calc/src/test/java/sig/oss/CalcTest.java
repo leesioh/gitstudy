@@ -5,5 +5,6 @@ public class CalcTest {
 public void testAdd() {
 Calc c = new Calc();
 assertEquals(30, c.add(10, 20));
+assertEquals(10, c.sub(30,10));
 }
 }
